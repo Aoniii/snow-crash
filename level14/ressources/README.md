@@ -26,7 +26,7 @@ Thanks to this site, we can get an idea of the code contained in the executable 
 <<https://dogbolt.org/>>
 
 ```
-$ scp -P 4242 level14@192.168.56.101:/bin/getflag .
+$ scp -P 4242 level14@0.0.0.0:/bin/getflag .
 ```
 
 ```
