@@ -13,7 +13,7 @@ total 12
 We will download it to our environment to have access to tools.
 
 ```
-$ scp -P 4242 level02@192.168.56.101:/home/user/level02/level02.pcap .
+$ scp -P 4242 level02@0.0.0.0:/home/user/level02/level02.pcap .
 ```
 
 We will use tshark to read this file (it is like Wireshark, but in command line).
