@@ -74,7 +74,7 @@ The password is not hidden; it is encrypted using DES encryption.
 We will decrypt it with John the Ripper. First, we will need to download it to our environment, then run the program.
 
 ```
-$ scp -P 4242 level01@192.168.56.101:/etc/passwd .
+$ scp -P 4242 level01@0.0.0.0:/etc/passwd .
 ```
 
 ```
