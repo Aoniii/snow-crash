@@ -41,7 +41,7 @@ Thanks to this site, we can get an idea of the code contained in the executable 
 <<https://dogbolt.org/>>
 
 ```
-$ scp -P 4242 level06@192.168.56.101:/home/user/level06/level06 .
+$ scp -P 4242 level06@0.0.0.0:/home/user/level06/level06 .
 ```
 
 ```
