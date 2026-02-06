@@ -40,7 +40,7 @@ Here we see that if we manage to pass through the ``if`` statement, we will be a
 </br>
 We will need to change the return value of ``getuid()`` in ``eax`` or ``rax``.
 </br>
-``eax`` est le registre pour la valeur de retour sur ``x86`` et ``rax`` celui pour ``x86-64``
+``eax`` is the register for the return value on ``x86`` and ``rax`` is the register for ``x86-64``.
 
 ```
 $ file ./level13
